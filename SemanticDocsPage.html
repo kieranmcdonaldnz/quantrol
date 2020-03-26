@@ -1,0 +1,86 @@
+<!-- 
+  Generally I wouldn't worry with the menu roles. Screen readers seem to do fine with nav > ul > li structures.
+  But I've included them here anyway.
+ -->
+<header>
+  <nav>
+    <a href="#">
+      <img src="" alt="Q-Ctrl logo" />
+    </a>
+    <ul role="menubar">
+      <li>
+        <a role="menuitem" href="#">Solutions</a>
+      </li>
+      <li>
+        <a role="menuitem" href="#">Industries</a>
+      </li>
+      <li>
+        <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false"
+          >Products</a
+        >
+        <ul role="menu">
+          <li><a role="menuitem" href="#">Overview</a></li>
+          <li><a role="menuitem" href="#">Pricing</a></li>
+          <li><a role="menuitem" href="#">Black Opal</a></li>
+          <li><a role="menuitem" href="#">Boulder Opal</a></li>
+          <li><a role="menuitem" href="#">Open Controls</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false"
+          >Company</a
+        >
+        <ul role="menu">
+          <li><a role="menuitem" href="#">About</a></li>
+          <li><a role="menuitem" href="#">Team</a></li>
+          <li><a role="menuitem" href="#">Investors</a></li>
+          <li><a role="menuitem" href="#">Careers</a></li>
+          <li><a role="menuitem" href="#">Contact</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" role="menuitem" aria-haspopup="true" aria-expanded="false"
+          >Resources</a
+        >
+        <ul role="menu">
+          <li><a role="menuitem" href="#">Blog</a></li>
+          <li><a role="menuitem" href="#">Media</a></li>
+          <li><a role="menuitem" href="#">Help Center</a></li>
+          <li><a role="menuitem" href="#">Press Kit</a></li>
+        </ul>
+      </li>
+      <li>
+        <a role="menuitem" href="#">Login</a>
+      </li>
+      <li>
+        <a role="menuitem" href="#">Sign up</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <p>Q-Ctrl</p>
+  <h1>Documentation</h1>
+  <p>
+    Whether you're a novice or an advanced user, this documentaion cover almost
+    everything you need to know about our products
+  </p>
+
+  <form action="#" method="get">
+    <fieldset>
+      <label for="search">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search Documentation"
+        />
+      </label>
+      <button type="submit" title="Search Documentation">Submit</button>
+    </fieldset>
+  </form>
+</section>
+<main>
+  Assuming the main content is down here.
+</main>
