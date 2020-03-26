@@ -67,7 +67,7 @@ function Controls() {
     <div>
       <TableHeading>
         <Heading.h1>Controls</Heading.h1>
-        <AddIcon></AddIcon>
+        <AddIcon />
       </TableHeading>
       <Table
         columns={[
